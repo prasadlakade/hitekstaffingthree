@@ -1,7 +1,8 @@
 $('.bannerslider').owlCarousel({
     loop:true,
     //autoplayTimeout:5000,
-    //autoplay:true,
+    autoplay:true,
+    autoplaySpeed:1000,
     smartSpeed:900,
     items:1
 })
